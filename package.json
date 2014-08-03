@@ -17,6 +17,7 @@
     "gulp-notify": "^1.4.1",
     "gulp-util": "^3.0.0",
     "pretty-hrtime": "^0.2.1",
+    "uglifyify": "^2.5.0",
     "vinyl-source-stream": "^0.1.1"
   }
 }

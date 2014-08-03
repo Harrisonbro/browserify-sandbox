@@ -39,8 +39,14 @@ gulp.task('browserify', function () {
         // Specify the entry point of your app
         entries: ['./js/src/app.js'],
         // Enable source maps!
-        debug: true
-    });
+        debug: true,
+    }, 'uglifyify');
+
+    // Minify
+    bundler.transform({
+        // Enable uglifyify to compress modules too
+        global: true
+    }, 'uglifyify');
 
     var bundle = function() {
         // Log when bundling starts
