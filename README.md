@@ -1,2 +1,2 @@
 1. Install Browserify. `sudo npm install -g browserify`
-2. Install dependencies
+2. Install dependencies. `sudo npm install`
